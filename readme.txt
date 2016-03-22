@@ -1,6 +1,2 @@
-GIt is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes of files.
-First GitHub push.
-merge branch.
+1st line.
+2nd line.
