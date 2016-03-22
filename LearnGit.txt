@@ -6,11 +6,18 @@ Local repository:
 git init                                // git can manage this local repository
 // put all the files into this local repository
 git add xxxx.txt                        // add/update to local repository
+git add .                               // add all
+git mv one.txt two.txt                  // rename one.txt to two.txt
+git mv one.txt NewFolder/one.txt        // drag one.txt to NewFolder/one.txt
 git commit -m "info for this change"    // submit to local repository
+
 git status                              // check current status for local repo
 git diff xxxx.txt                       // check the update context
+git diff —- staged                      // staged area vs repository
 git log                                 // check commit version
+git log —-author=“xxxx”
 git reset --hard commit_id              // go to commit_id version
+git help func_name
 
 
 GitHub
